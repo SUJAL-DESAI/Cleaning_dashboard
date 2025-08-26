@@ -1,0 +1,202 @@
+/* frontend/src/pages/customers.css
+
+.customers-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f5f8fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.customers-container h2 {
+  text-align: center;
+  color: #1f78d6;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.controls input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.controls select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.customers-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.customers-table th,
+.customers-table td {
+  border: 1px solid #ddd;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+.customers-table th {
+  background-color: #1f78d6;
+  color: white;
+  font-weight: 600;
+}
+
+.customers-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.customers-table tr:hover {
+  background-color: #e3f2fd;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1f78d6;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #155a9c;
+} */
+
+
+/* frontend/src/pages/customers.css */
+
+.customers-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #f5f7fb; /* Matches dashboard background */
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.customers-container h2 {
+  text-align: center;
+  color: #1a237e; /* Dark premium blue */
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.controls input,
+.controls select {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: white;
+  transition: all 0.2s ease;
+}
+
+.controls input:focus,
+.controls select:focus {
+  outline: none;
+  border-color: #1f78d6;
+  box-shadow: 0 0 6px rgba(31, 120, 214, 0.3);
+}
+
+.customers-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.customers-table th,
+.customers-table td {
+  border: 1px solid #e0e0e0;
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.customers-table th {
+  background: linear-gradient(135deg, #1f78d6, #155a9c); /* Premium gradient */
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.customers-table tr:nth-child(even) {
+  background-color: #f9fbff;
+}
+
+.customers-table tr:hover {
+  background-color: #e3f2fd;
+  transition: background-color 0.2s ease;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #1f78d6, #155a9c);
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.pagination button:disabled {
+  background: #cfd8dc;
+  cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+  background: linear-gradient(135deg, #155a9c, #0d3c6e);
+}

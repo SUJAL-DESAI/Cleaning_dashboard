@@ -1,0 +1,15 @@
+.services {
+  padding: 20px;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services li {
+  background: white;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 8px;
+}
